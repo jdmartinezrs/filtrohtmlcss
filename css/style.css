@@ -1,0 +1,130 @@
+@import url(variables.css);
+
+*{
+    margin: 0;
+    padding: 0;
+   
+    font-family: Arial, Helvetica, sans-serif ;
+   
+}
+
+header{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    min-height: 80px;
+    background: var(--color-menu);
+    align-items: center;
+    padding: 5px;
+    font-family:'Poppins', sans-serif;
+    position: sticky;
+    top: 0;
+    margin: 0;
+    z-index: 5;
+    background-color:var(--color-primary);
+
+}
+
+
+
+.container{
+
+    display:grid;
+    grid-gap: 8px;
+    column-gap: 10px;
+    background-color: white;
+    grid-template-areas: 
+    
+    "aei aei pbd pbd pbd pbd "
+    "aei aei pbd pbd pbd pbd"
+    "oub oub pbd pbd pbd pbd"
+    "oub oub pbd pbd pbd pbd"
+    "plc plc pbd pbd pbd pbd"
+    "plc plc pbd pbd pbd pbd"
+    "pad pad pbd pbd pbd pbd"
+    "pad pad pbd pbd pbd pbd"
+    ;
+
+   height: 100vh;
+    width: 100%;
+    background-color: var(--color-reddark);
+}
+
+    
+    
+
+
+.place__1{
+    grid-area: aei;
+    background: yellow;
+    background-image: url(https://http2.mlstatic.com/D_NQ_NP_2X_930447-MCO71410142210_092023-F.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+
+.place__2{
+   
+    grid-area: oub;
+    background: blue;
+    background-image: url(https://http2.mlstatic.com/D_NQ_NP_2X_712593-MCO41606376126_052020-F.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    
+}
+
+
+.place__3{
+    grid-area: plc;
+    background: gray;
+    background-image: url(https://http2.mlstatic.com/D_NQ_NP_2X_829630-MCO31080337339_062019-F.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.place__4{
+    grid-area: pad;
+    background: green;
+    background-image: url(https://http2.mlstatic.com/D_NQ_NP_2X_906094-MCO53976036500_022023-F.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}  
+.place__5{
+    grid-area: pbd;
+    background: pink;
+    background-image: url(https://http2.mlstatic.com/D_NQ_NP_2X_649847-MCO43854241255_102020-F.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.living {
+    
+    display: flex;
+    justify-content: center;
+
+}
+
+.icon{
+   
+    display: flex;
+    justify-content: flex-start;
+    font-size: 21px;
+    align-content: center;
+
+}
+
+.text{
+    height: 100vh;
+    flex-direction: column;
+  
+    
+}
+
